@@ -1,0 +1,68 @@
+body {
+	background: green;
+	margin: 0;
+}
+
+.navbar {
+	position: fixed;
+	display: inline-block;
+	width:100%;
+	font-size: 20px;
+	background: grey;
+	padding: 0px;
+	margin: 0px;
+	top:0;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	height: 25px;
+	padding: 10px;
+	float: left;
+}
+
+.navbar a:hover {
+	background: white;
+	color: black;
+}
+
+.active {
+	background: darkgreen;
+}
+
+.main {
+	margin-top: 150px;https://www.cdc.gov/coronavirus/2019-ncov/prepare/prevention.html
+}
+
+.mapContainer {
+	text-align: center;
+}
+
+.slide-content { margin: 0 auto; width: 960px; }
+
+#spreadSlide {
+	background: url('http://images.clipartpanda.com/cough-clipart-mancoughing.jpg') 50% 0 no-repeat fixed;
+	height: 600px;
+	color: #FFFFFF;
+	padding: 20px 0 100px 0;
+	background-size: cover;
+	overflow: hidden;
+}
+#preventionSlide {
+	background: green;
+	height: 200px;
+	padding: 20px 0;
+	overflow: hidden;
+}
+
+#symptomSlide {
+	background: url('http://images.clipartpanda.com/fever-clipart-8c6oEjkei.jpg') 50% 0 no-repeat fixed;
+	height: 600px;
+	color: #FFFFFF;
+	overflow: hidden;
+	padding 20px 0;
+	background-size: cover;
+}
+
