@@ -1,5 +1,5 @@
 body {
-	background: green;
+	background: #2f4858;
 	margin: 0;
 }
 
@@ -29,11 +29,11 @@ body {
 }
 
 .active {
-	background: darkgreen;
+	background: #86bbd8;
 }
 
 .main {
-	margin-top: 150px;https://www.cdc.gov/coronavirus/2019-ncov/prepare/prevention.html
+	margin-top: 150px;
 }
 
 .mapContainer {
@@ -43,7 +43,7 @@ body {
 .slide-content { margin: 0 auto; width: 960px; }
 
 #spreadSlide {
-	background: url('http://images.clipartpanda.com/cough-clipart-mancoughing.jpg') 50% 0 no-repeat fixed;
+	background: url('cough.jpg') 50% 0 no-repeat fixed;
 	height: 600px;
 	color: #FFFFFF;
 	padding: 20px 0 100px 0;
@@ -51,14 +51,15 @@ body {
 	overflow: hidden;
 }
 #preventionSlide {
-	background: green;
+	background: #33658a;
 	height: 200px;
 	padding: 20px 0;
 	overflow: hidden;
+	height: 300px;
 }
 
 #symptomSlide {
-	background: url('http://images.clipartpanda.com/fever-clipart-8c6oEjkei.jpg') 50% 0 no-repeat fixed;
+	background: url('fever.jpg') 50% 0 no-repeat fixed;
 	height: 600px;
 	color: #FFFFFF;
 	overflow: hidden;
@@ -66,3 +67,24 @@ body {
 	background-size: cover;
 }
 
+.infobox {
+	display: inline-block;
+	height: 300px;
+	width: 250px;
+	background: #33658a;
+	margin: 0 50px;
+	padding: 5px;
+}
+
+#inside {
+	text-align: center;
+	margin: 50px 0;
+	width: 100%;
+	height: 350px;
+}
+#outside {
+	text-align: center;
+	margin: 50px 0;
+	width: 100%;
+	height: 350px;
+}
